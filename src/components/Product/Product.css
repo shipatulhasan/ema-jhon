@@ -1,0 +1,32 @@
+.card{
+   border: 1px solid rgb(230, 230, 230);
+   border-radius: 8px;
+   display: flex;
+   flex-flow: column;
+   justify-content: space-between;
+   
+}
+.card img{
+    max-width: 95%;
+    border-radius: 8px;
+    margin: 8px 7px 0 7px;
+}
+.card-content{
+    padding: 8px 14px;   
+}
+.card button{
+    width: 100%;
+    background: #FFE0B3;
+    border: 1px solid #95A0A7;
+    border-radius: 0px 0px 8px 8px;
+    /* padding: 10px; */
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+}
+button:hover{
+    background: chocolate;
+    color: whitesmoke;
+    cursor: pointer;
+}
