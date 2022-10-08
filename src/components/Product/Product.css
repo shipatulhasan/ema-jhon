@@ -25,7 +25,7 @@
     align-items: center;
     justify-content: center;
 }
-button:hover{
+.card button:hover{
     background: chocolate;
     color: whitesmoke;
     cursor: pointer;

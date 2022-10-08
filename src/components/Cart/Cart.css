@@ -5,7 +5,23 @@
 .cart-item{
     padding: 0 0 0 30px;
 }
-.cart{
-    position: sticky;
-    top: 0;
+.cart button{
+    width: 50%;
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+    color: whitesmoke;
+    background: #1abbfa;
+    margin-top: 10px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+.cart button:hover{
+    cursor: pointer;
+}
+
+.cart .clear-btn{
+    background: #ff4a3d;
+    
 }

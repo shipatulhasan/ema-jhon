@@ -19,5 +19,17 @@ const getItemFromLS = ()=>{
     }
     return cart
 }
+const removeDb = (id)=>{
+    const storedProduct = getItemFromLS()
+    if(storedProduct[id]){
+        delete storedProduct[id]
+    }
+    localStorage.setItem('cart',JSON.stringify(storedProduct))
+    
+}
+const resetDb = ()=>{
+    localStorage.clear()
+    
+}
 
-export { addToDb, getItemFromLS }
+export { addToDb, getItemFromLS, removeDb, resetDb }

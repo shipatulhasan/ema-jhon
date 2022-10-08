@@ -1,0 +1,30 @@
+.review-items-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+    border: 1px solid rgb(185, 185, 185);
+    border-radius: 5px;
+    padding: 10px;
+}
+.review-item{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.review-item h5,.review-item p{
+    margin: 0;
+}
+
+.review-item img{
+    width: 100px;
+    height: 100px;
+    max-width: 100%;
+    border-radius: 10px;
+
+}
+.review-item-details{
+    display: flex;
+    flex-flow: column;
+    gap: 5px;
+}

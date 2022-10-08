@@ -1,0 +1,21 @@
+.order-container{
+    
+        display: grid;
+        grid-template-columns: repeat(12,1fr);
+        gap: 20px;
+    
+}
+.review-container{
+    grid-column: 2/8;
+    
+    padding: 50px 20px 0 50px ;
+}
+.summery-container{
+    grid-column: 9/-2;
+    background: #ffe0b3;
+    position: sticky;
+    margin-top: 65px;
+    top: 0;
+    height: 420px;
+    border-radius: 10px; 
+}
