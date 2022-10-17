@@ -35,7 +35,7 @@ const Header = () => {
                         
                         }
                         {
-                            user && <li className='user'>{userName?.split('@')[0]}</li>
+                            user && <li className='user'>Welcome,{userName?.split('@')[0]}</li>
                             
                         }
        
