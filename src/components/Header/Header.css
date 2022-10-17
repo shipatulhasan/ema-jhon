@@ -25,4 +25,5 @@ li a{
 }
 .user{
     color: whitesmoke;
+    text-transform: capitalize;
 }

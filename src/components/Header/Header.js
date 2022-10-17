@@ -7,6 +7,9 @@ import './Header.css'
 const Header = () => {
     const {user,logOut} = useContext(AuthContext)
 
+    const userName = user?.email
+    
+
     const handleLogOut = ()=>{
         logOut()
         .then(()=>{ })
@@ -32,7 +35,7 @@ const Header = () => {
                         
                         }
                         {
-                            user && <li className='user'>{user.email}</li>
+                            user && <li className='user'>{userName?.split('@')[0]}</li>
                             
                         }
        
