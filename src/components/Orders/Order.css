@@ -16,6 +16,9 @@
     position: sticky;
     margin-top: 65px;
     top: 0;
-    height: 420px;
+    height: 450px;
     border-radius: 10px; 
+}
+.summery-container .check-out{
+    background: #ff4a3d;
 }

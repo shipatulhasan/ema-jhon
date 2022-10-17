@@ -29,6 +29,7 @@ const Order = () => {
         <div className="summery-container">
             <Cart cart={cart}>
                     <Link to='/'><button>Shop more</button> </Link>
+                    <Link to='/checkout'><button className='check-out'>Check Out</button> </Link>
 
             </Cart>
         </div>

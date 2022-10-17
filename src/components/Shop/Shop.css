@@ -19,8 +19,5 @@
 .cart-container{
     grid-column: 10/-1;
     background: #ffe0b3;
-    position: sticky;
-    top: 0;
-    height: 480px;
-    border-radius: 0 0 0 10px; 
+ 
 }

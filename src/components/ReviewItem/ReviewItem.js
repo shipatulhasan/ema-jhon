@@ -22,7 +22,4 @@ const ReviewItem = ({product,handleRemove}) => {
     );
 };
 
-export default ReviewItem;<div className="review-items-container">
-<div className="review-item">
-    <img src="" alt="" />
-</div></div>
+export default ReviewItem;
