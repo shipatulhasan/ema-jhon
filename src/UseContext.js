@@ -36,8 +36,8 @@ const UseContext = ({children}) => {
 
         const unSubscribe = onAuthStateChanged(auth, currentUser=>{
 
-            setLoading(false)
             setUser(currentUser)
+            setLoading(false)
         })
         return ()=>{
 
